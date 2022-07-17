@@ -35,12 +35,12 @@ class Piece:
         self.isEdibleEnPasse = False
         
         self.SCORE = None
-        if self.name == "king": self.SCORE = 100000
+        if self.name == "king": self.SCORE = 10000000
         if self.name == "queen": self.SCORE = 1000
-        if self.name == "rook": self.SCORE = 400
-        if self.name == "bishop": self.SCORE = 300
-        if self.name == "knight": self.SCORE = 200
-        if self.name == "pawn": self.SCORE = 50
+        if self.name == "rook": self.SCORE = 600
+        if self.name == "bishop": self.SCORE = 450
+        if self.name == "knight": self.SCORE = 300
+        if self.name == "pawn": self.SCORE = 30
 
         
     def getName(self):
